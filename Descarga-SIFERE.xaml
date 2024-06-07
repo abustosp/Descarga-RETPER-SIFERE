@@ -453,6 +453,7 @@
                                                           </scg:Dictionary>
                                                         </sap:WorkflowViewStateService.ViewState>
                                                         <ui:NavigateTo Browser="{x:Null}" DisplayName="Navigate To SIRCAR RET" sap:VirtualizedContainerService.HintSize="388,92" sap2010:WorkflowViewState.IdRef="NavigateTo_4" Url="https://app1.comarb.gob.ar/siferewebconsultas/srcRetencion.do?method=retencionIn" />
+                                                        <Delay Duration="00:00:01" sap:VirtualizedContainerService.HintSize="388,122" sap2010:WorkflowViewState.IdRef="Delay_58" />
                                                         <ui:ForEach x:TypeArguments="x:Object" CurrentIndex="{x:Null}" DisplayName="For Each jurisdiccion" sap:VirtualizedContainerService.HintSize="388,48" sap2010:WorkflowViewState.IdRef="ForEach`1_2" Values="[Jurisdicciones]">
                                                           <ui:ForEach.Body>
                                                             <ActivityAction x:TypeArguments="x:Object">
@@ -634,8 +635,8 @@
                                                             <x:Boolean x:Key="IsPinned">True</x:Boolean>
                                                           </scg:Dictionary>
                                                         </sap:WorkflowViewStateService.ViewState>
-                                                        <ui:NavigateTo Browser="{x:Null}" DisplayName="Navigate To SIRCAR PER" sap:VirtualizedContainerService.HintSize="548,92" sap2010:WorkflowViewState.IdRef="NavigateTo_6" Url="https://app1.comarb.gob.ar/siferewebconsultas/srcRetencion.do?method=percepcionIn" />
-                                                        <ui:ForEach x:TypeArguments="x:Object" CurrentIndex="{x:Null}" DisplayName="For Each jurisdiccion" sap:VirtualizedContainerService.HintSize="548,633" sap2010:WorkflowViewState.IdRef="ForEach`1_3" Values="[Jurisdicciones]">
+                                                        <Delay Duration="00:00:01" sap:VirtualizedContainerService.HintSize="388,122" sap2010:WorkflowViewState.IdRef="Delay_59" />
+                                                        <ui:ForEach x:TypeArguments="x:Object" CurrentIndex="{x:Null}" DisplayName="For Each jurisdiccion" sap:VirtualizedContainerService.HintSize="388,48" sap2010:WorkflowViewState.IdRef="ForEach`1_3" Values="[Jurisdicciones]">
                                                           <ui:ForEach.Body>
                                                             <ActivityAction x:TypeArguments="x:Object">
                                                               <ActivityAction.Argument>
