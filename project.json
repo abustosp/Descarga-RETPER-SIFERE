@@ -2,7 +2,7 @@
   "name": "Descarga SIFERE",
   "projectId": "ffc7bc86-3dfa-4be0-bb38-205985814369",
   "description": "Descarga de Retenciones y Percepciones de SIFERE consultas",
-  "main": "Descarga-SIFERE.xaml",
+  "main": "Descarga-SIFERE-SIRCAR.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[2.16.0]",
     "UiPath.Mail.Activities": "[1.18.0]",
@@ -50,8 +50,8 @@
   "expressionLanguage": "VisualBasic",
   "entryPoints": [
     {
-      "filePath": "Descarga-SIFERE.xaml",
-      "uniqueId": "e7a920c4-4bd3-4fa3-affb-0a37aee1b6cf",
+      "filePath": "Descarga-SIFERE-SIRCAR.xaml",
+      "uniqueId": "320c6846-95f6-4da7-8693-a6864a1646ef",
       "input": [],
       "output": []
     }
